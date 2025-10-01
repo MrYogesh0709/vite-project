@@ -134,7 +134,7 @@ const App = () => {
     }
   };
 
-  return <button onClick={startPayment}>Pay with Paytm</button>;
+  return <button onClick={startPayment}>Pay with Paytm but not now </button>;
 };
 
 export default App;
