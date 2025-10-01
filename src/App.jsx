@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import New from "./New";
 
 const App = () => {
   const productId = "6831f48039574c9486cfd2d2";
@@ -134,7 +135,12 @@ const App = () => {
     }
   };
 
-  return <button onClick={startPayment}>Pay with Paytm but not now </button>;
+  return (
+    <>
+      <New />
+      <button onClick={startPayment}>Pay with Razorpay</button>;
+    </>
+  );
 };
 
 export default App;
